@@ -1,0 +1,17 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage output
+*.test
+*.out
+
+# Dependencies
+vendor/
+
+# Local workspace files
+go.work
+go.work.sum

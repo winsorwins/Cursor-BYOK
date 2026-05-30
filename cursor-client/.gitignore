@@ -1,0 +1,17 @@
+.task/
+bin/
+frontend/dist/*
+!frontend/dist/
+!frontend/dist/.gitkeep
+frontend/node_modules/
+build/bin/
+build/linux/appimage/build/
+build/windows/nsis/MicrosoftEdgeWebview2Setup.exe
+*.exe
+*.test
+*.log
+*.db
+*.sqlite
+*.pem
+*.key
+*.crt

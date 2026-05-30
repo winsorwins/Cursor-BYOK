@@ -1,0 +1,68 @@
+# Dependencies
+**/node_modules/
+**/.pnp/
+.pnp.*
+
+# Frontend outputs
+**/frontend/dist/*
+!**/frontend/dist/
+!**/frontend/dist/.gitkeep
+**/.next/
+**/out/
+**/coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Go and Wails build outputs
+**/bin/
+**/build/bin/
+**/build/linux/appimage/build/
+**/build/windows/nsis/MicrosoftEdgeWebview2Setup.exe
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Runtime data
+logs/
+**/logs/
+tmp/
+temp/
+**/tmp/
+**/temp/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+config.local.yaml
+*.pem
+*.key
+*.crt
+certs/
+**/certs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+__MACOSX/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local-only generated/scratch files
+.claude/
+*.bak
+*.bak-*
+package.json.md5
+runsse-smoke.*
+byok_strings_key.txt
